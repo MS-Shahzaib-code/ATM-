@@ -1,3 +1,4 @@
+#! /usr/bin/env/ node 
 import inquirer from "inquirer";
 let dollar = 10000;
 const atmpin = 6000;
@@ -26,7 +27,7 @@ if (answer.yourpin === atmpin) {
             },
         ]);
         if (money.yourwithdrawamount > dollar) {
-            console.log("Aukat pe aa");
+            console.log(" You only have ten thousand dollars in your account ");
         }
         else {
             dollar -= money.yourwithdrawamount;

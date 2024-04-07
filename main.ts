@@ -34,7 +34,7 @@ if (answer.yourpin === atmpin) {
     ]);
 
     if (money.yourwithdrawamount > dollar) {
-      console.log("Aukat pe aa");
+      console.log(" You only have ten thousand dollars in your account ");
     } else {
       dollar -= money.yourwithdrawamount;
       console.log(`your remaning blance is  ${dollar} `);
